@@ -18,10 +18,10 @@
 
 | # | 内容 | 方法 |
 |---|---|---|
-| B1 | [03_evaluation.md](03_evaluation.md) の評価はすべて記憶。特に Mojo、Unison、Koka、DSL、F\* | 公式文書で機能を確認し、`data/evaluation.csv` を直す |
+| B1 | [03_evaluation.md](03_evaluation.md) の評価はすべて記憶。特に Mojo、Unison、Koka、DSL、F\* | **著者の判断（2026-10-18）：裏取りはしない。** 評価表は記憶のままの見立てとして使う |
 | B2 | 言語学の文献は要旨まで。本文は未読 | Kilgarriff 1997 と OntoNotes の一致率の方法を通読（著者の案に直結すると見立てた） |
-| B3 | Lean が C 経由でバイナリを作ること、LLVM 経路の現状 | Lean 公式文書 |
-| B4 | CEGAR の「記憶」部分（lazy abstraction、CEGIS、gradual verification）の主張の正確さ | 原論文の要旨 |
+| B3 | ~~Lean が C 経由でバイナリを作ること~~（2026-10-18 確認済み）。**残り：LLVM 経路の現状、C コンパイラの種類** | Lean 公式文書 |
+| B4 | ~~CEGAR の「記憶」部分の書誌~~（2026-10-17 確認済み。訂正：Gradual C0 は別の論文）。**残り：本文の主張**（CEGIS の用語の初出など） | 原論文の本文 |
 | B5 | 評価の偏り：要求一覧が検証系に有利 | 検証系に依らない要求を足して、順位が変わるか見る |
 
 ## C. 設計判断（著者に聞く）
