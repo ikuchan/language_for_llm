@@ -43,6 +43,26 @@
 | Event-B と Rodin | Abrial らの Event-B。Rodin は Abrial ら, STTT 2010。著者リストの細部は未確認 | 確認（要旨） |
 | 形式概念分析 | Ganter・Wille, Springer 1999（独語原書 1996） | 確認（書誌） |
 
+## 書誌を検索で確認したもの（2026-10-17、型と機械語の13件）
+
+調査は `researcher`（Haiku）。**多くは検索スニペットのみ**で、表の「状態」に読んだ範囲を書く。TIL だけ本体が PLDI '96 のプログラムページを開いた。
+
+| 文献 | 確かめた書誌 | 状態 |
+|---|---|---|
+| TIL | Tarditi・Morrisett・Cheng・Stone・Harper・Lee, "TIL: A Type-Directed Optimizing Compiler for ML", PLDI 1996。「Compiling with Types」は Morrisett の博士論文（1995）の題名で別物 | 確認（書誌）。本体が開いた |
+| GHC Core | 基盤の System FC：Sulzmann・Chakravarty・Peyton Jones・Donnelly, TLDI 2007。Core との関係は二次情報 | 確認（スニペット） |
+| TAL | Morrisett・Walker・Crary・Glew, TOPLAS 21(3), 1999（会議版は POPL 1998） | 確認（スニペット） |
+| CompCert | Leroy, CACM 52(7), 2009 | 確認（スニペット） |
+| CakeML | Kumar・Myreen・Norrish・Owens, POPL 2014 | 確認（要旨） |
+| seL4 の translation validation | Sewell・Myreen・Klein, "Translation Validation for a Verified OS Kernel", PLDI 2013 | 確認（要旨ページの要約） |
+| Vale | Bond ら9名, USENIX Security 2017 | 確認（要旨ページ） |
+| HACL\* | Zinzindohoué・Bhargavan・Protzenko・Beurdouche, CCS 2017 | 確認（スニペット） |
+| Low\* | Protzenko ら, arXiv 1703.00053（ICFP 2017 の拡張版と記述） | 確認（スニペット） |
+| KaRaMeL（旧 KreMLin） | 役割と旧名はパッケージ一覧などの二次情報のみ。**公式リポジトリ・論文は未確認** | 未確認（二次情報のみ） |
+| Bedrock | Chlipala, ICFP 2013（構造化プログラミング系）。枠組みの導入は PLDI 2011 | 確認（要旨） |
+| Jasmin | Almeida ら10名, CCS 2017。**PDF 本文は読めていない** | 確認（スニペット） |
+| Sail | ISA 仕様記述言語としての存在と役割まで。**POPL 2019 の論文の題名・会議は未確認** | 一部確認（スニペット） |
+
 ## 実機で確かめたもの
 
 | 内容 | 状態 |
@@ -55,7 +75,6 @@
 | 分野 | 内容 |
 |---|---|
 | 検査 | Knight と Leveson（1986）、translation validation、Alive2、Spolsky「漏れる抽象化の法則」、Eiffel の契約による設計 |
-| 型と機械語 | TIL、GHC Core、型付きアセンブラ（TAL、Morrisett ら 1999）、CompCert、CakeML、seL4 の C から機械語への translation validation（Sewell・Myreen・Klein 2013）、Vale・HACL\*・Low\*・KaRaMeL、Bedrock、Jasmin、Sail（ISA 仕様） |
 | 安全な終点 | Cyclone、CHERI、WebAssembly |
 | 非機能 | 安全なコンパイル（Abate ら "Journey Beyond Full Abstraction"）、ハイパー性質（Clarkson・Schneider）、定数時間を保存する CompCert 拡張（Barthe ら、POPL 2020）、WCET（aiT）、型による資源解析（RAML） |
 | 言語学 | Pustejovsky "The Generative Lexicon"（1995）、Wierzbicka の NSM、Cruse "Lexical Semantics"（1986）、Wüster と ISO 704 |
