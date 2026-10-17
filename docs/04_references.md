@@ -75,6 +75,17 @@
 | WCET（aiT） | AbsInt の製品（論文ではない）。静的解析で最悪実行時間の上界を求める。「抽象解釈に基づく」は検索の要約で、製品ページ本文では未確認 | 確認（製品ページ本文） |
 | 型による資源解析（RAML） | 多変数：Hoffmann・Aehlig・Hofmann, "Multivariate Amortized Resource Analysis", POPL 2011（TOPLAS 34(3), 2012 は未取得）。Kahn・Hoffmann の ICFP 2021 の論文は別系統で、RAML の代表論文ではない | 確認（スニペット） |
 
+## 書誌を検索で確認したもの（2026-10-17、言語学の4件）
+
+調査は `researcher`（Haiku）。書誌（存在・著者・年・出版社）の確認で、**各書の中身の主張は確かめていない**。
+
+| 文献 | 確かめた書誌 | 状態 |
+|---|---|---|
+| Pustejovsky | 1991年の論文 "The Generative Lexicon", Computational Linguistics 17(4), 409–441（ACL Anthology に書誌）と、1995年の書籍 *The Generative Lexicon*, MIT Press は別物。1995年が体系化（Wikipedia の記述） | 確認（書誌）。中身は未確認 |
+| Wierzbicka の NSM | *Semantics: Primes and Universals*, Oxford UP, 1996。**意味的原子語が約65という数は現在の合意値（Wikipedia が Goddard・Wierzbicka 2014 などを引用）で、1996年の本の数ではない**（1972年に14、2002年に60と記述） | 確認（書名・出版社はスニペット、数は Wikipedia 本文） |
+| Cruse | *Lexical Semantics*, Cambridge UP, 1986, xiv+310 p.（CiNii の書誌）。**語義の facet・microsense に関する議論がこの本にあるかは確認できなかった**。facet は2000年の章（Ravin・Leacock 編 *Polysemy*）の書評スニペットに出てくる | 確認（書誌のみ）。中身は未確認 |
+| Wüster と ISO 704 | ISO 704:2022 "Terminology work — Principles and methods"（第4版、ISO 公式ページ。2009年の第3版を置換）。Wüster は用語学の国際原則の提唱者（Wikipedia）。**ISO 704 が Wüster の理論に由来すること、概念を特徴の組で定義することは、今回の資料で確認できなかった** | 確認（規格名と版）。由来と中身は未確認 |
+
 ## 実機で確かめたもの
 
 | 内容 | 状態 |
@@ -88,7 +99,6 @@
 |---|---|
 | 検査 | Knight と Leveson（1986）、translation validation、Alive2、Spolsky「漏れる抽象化の法則」、Eiffel の契約による設計 |
 | 安全な終点 | Cyclone、CHERI、WebAssembly |
-| 言語学 | Pustejovsky "The Generative Lexicon"（1995）、Wierzbicka の NSM、Cruse "Lexical Semantics"（1986）、Wüster と ISO 704 |
 | その他 | Meta の LLM Compiler（2024）、EnerJ、`Uncertain<T>`、Koka、Unison、Lean 4 が C 経由でバイナリを作ること、各言語の機能（[03_evaluation.md](03_evaluation.md) の評価はすべてこの区分） |
 
 次に調べる優先順は [05_open_questions.md](05_open_questions.md)。

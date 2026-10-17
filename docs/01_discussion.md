@@ -202,7 +202,7 @@ Lean・Coq の証明項／Typed Racket の blame／Lisp・Smalltalk の実行中
 | Temerko ら CoNLL 2025 | 規則的な多義の拡張が、言語モデルの驚き度に人間らしい段階で表れる |
 | Kugler 2025 | 語義を、文脈つき埋め込みのクラスタとして定義する |
 
-記憶のみ：Pustejovsky の Generative Lexicon、Wierzbicka の NSM、Cruse の Lexical Semantics、Wüster の用語学と ISO 704（概念を特徴の組で定義する）。
+書誌は検索で確認（[04_references.md](04_references.md)）。**中身の主張は未確認**：Pustejovsky の Generative Lexicon、Wierzbicka の NSM、Cruse の Lexical Semantics、Wüster の用語学と ISO 704（概念を特徴の組で定義する、という説明は確認できていない）。
 
 ### 現在の設計
 

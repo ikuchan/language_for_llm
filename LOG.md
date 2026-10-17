@@ -10,3 +10,4 @@
 - 2026-10-17 出典の記憶区分のうち検証・抽象化の12件を researcher で検索確認し、04_references.md に移した。訂正：Gradual C0 は Bader らの 2018 年論文ではなく DiVincenzo ら（arXiv 2210.02428）
 - 2026-10-17 出典の記憶区分のうち型と機械語の13件を researcher で検索確認し、04_references.md に移した。KaRaMeL と Sail の論文は未確認のまま
 - 2026-10-17 出典の記憶区分のうち非機能の5件を researcher で検索確認し、04_references.md に移した。PDF 本文は未読
+- 2026-10-17 出典の記憶区分のうち言語学の4件の書誌を researcher で検索確認。NSM の約65語は現在の値で1996年の本の値ではない。Cruse の facet と ISO 704 の特徴の組は未確認
