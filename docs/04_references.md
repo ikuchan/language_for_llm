@@ -63,6 +63,18 @@
 | Jasmin | Almeida ら10名, CCS 2017。**PDF 本文は読めていない** | 確認（スニペット） |
 | Sail | ISA 仕様記述言語としての存在と役割まで。**POPL 2019 の論文の題名・会議は未確認** | 一部確認（スニペット） |
 
+## 書誌を検索で確認したもの（2026-10-17、非機能の5件）
+
+調査は `researcher`（Haiku）。PDF は多くが開けず（バイナリ、HTTP 403/429）、**本文は誰も読んでいない**。
+
+| 文献 | 確かめた書誌 | 状態 |
+|---|---|---|
+| 安全なコンパイル | Abate・Blanco・Garg・Hritcu・Patrignani・Thibault, "Journey Beyond Full Abstraction: Exploring Robust Property Preservation for Secure Compilation", CSF 2019 | 確認（スニペット） |
+| ハイパー性質 | Clarkson・Schneider, "Hyperproperties", J. Computer Security 18(6), 2010（CSF 2008 の会議版を拡張）。CSF の Test of Time 受賞はブログの記述 | 確認（スニペット）。要旨・本文は未確認 |
+| 定数時間を保存する CompCert 拡張 | Barthe・Blazy・Grégoire・Hutin・Laporte・Pichardie・Trieu, "Formal Verification of a Constant-Time Preserving C Compiler", POPL 2020 | 確認（要旨。POPL 公式ページ） |
+| WCET（aiT） | AbsInt の製品（論文ではない）。静的解析で最悪実行時間の上界を求める。「抽象解釈に基づく」は検索の要約で、製品ページ本文では未確認 | 確認（製品ページ本文） |
+| 型による資源解析（RAML） | 多変数：Hoffmann・Aehlig・Hofmann, "Multivariate Amortized Resource Analysis", POPL 2011（TOPLAS 34(3), 2012 は未取得）。Kahn・Hoffmann の ICFP 2021 の論文は別系統で、RAML の代表論文ではない | 確認（スニペット） |
+
 ## 実機で確かめたもの
 
 | 内容 | 状態 |
@@ -76,7 +88,6 @@
 |---|---|
 | 検査 | Knight と Leveson（1986）、translation validation、Alive2、Spolsky「漏れる抽象化の法則」、Eiffel の契約による設計 |
 | 安全な終点 | Cyclone、CHERI、WebAssembly |
-| 非機能 | 安全なコンパイル（Abate ら "Journey Beyond Full Abstraction"）、ハイパー性質（Clarkson・Schneider）、定数時間を保存する CompCert 拡張（Barthe ら、POPL 2020）、WCET（aiT）、型による資源解析（RAML） |
 | 言語学 | Pustejovsky "The Generative Lexicon"（1995）、Wierzbicka の NSM、Cruse "Lexical Semantics"（1986）、Wüster と ISO 704 |
 | その他 | Meta の LLM Compiler（2024）、EnerJ、`Uncertain<T>`、Koka、Unison、Lean 4 が C 経由でバイナリを作ること、各言語の機能（[03_evaluation.md](03_evaluation.md) の評価はすべてこの区分） |
 
