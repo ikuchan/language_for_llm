@@ -24,6 +24,25 @@
 | Temerko ら CoNLL 2025 | 規則的多義と言語モデルの驚き度 | 確認（要旨） |
 | Kugler 2025（arXiv 2511.21334） | 語義を埋め込みのクラスタで定義 | 確認（要旨） |
 
+## 書誌を検索で確認したもの（2026-10-17、検証・抽象化の12件）
+
+調査は `researcher`（Haiku）で、**検索結果のスニペットと書誌ページまで**。本文は通読していない。8番だけ本体が arXiv のページを開いて確かめた。
+
+| 文献 | 確かめた書誌 | 状態 |
+|---|---|---|
+| CEGAR | Clarke・Grumberg・Jha・Lu・Veith, CAV 2000, LNCS 1855 | 確認（書誌） |
+| SLAM | Ball・Rajamani（SPIN 2001 ほか）。Static Driver Verifier の基盤 | 確認（要旨） |
+| BLAST | Henzinger ら "Lazy Abstraction" から派生。SPIN 2003 の紹介論文 | 確認（要旨） |
+| 遅延抽象化 | Henzinger・Jhala・Majumdar・Sutre, POPL 2002, pp.58–70 | 確認（書誌） |
+| CEGIS | Solar-Lezama の博士論文 2008（UCB/EECS-2008-177）。**CEGIS という用語をここで導入したかは未確認** | 確認（要旨）。用語の初出は未確認 |
+| 抽象解釈 | Cousot・Cousot, POPL 1977, pp.238–252 | 確認（書誌） |
+| 漸進的型付け | Siek・Taha, Scheme Workshop 2006 | 確認（要旨） |
+| 漸進的検証 | Bader・Aldrich・Tanter, "Gradual Program Verification", VMCAI 2018。**訂正：Gradual C0 はこの論文ではなく DiVincenzo ら10名の別の論文**（arXiv 2210.02428、2022年投稿のプレプリント。POPL 2025 採録は researcher の報告のみで未確認） | 確認（要旨）。arXiv は本体が開いた |
+| Liquid Types | Rondon・Kawaguchi・Jhala, PLDI 2008, pp.159–169 | 確認（書誌） |
+| 段階的精緻化 | Wirth, CACM 14(4), 1971, pp.221–227 | 確認（要旨） |
+| Event-B と Rodin | Abrial らの Event-B。Rodin は Abrial ら, STTT 2010。著者リストの細部は未確認 | 確認（要旨） |
+| 形式概念分析 | Ganter・Wille, Springer 1999（独語原書 1996） | 確認（書誌） |
+
 ## 実機で確かめたもの
 
 | 内容 | 状態 |
@@ -35,7 +54,6 @@
 
 | 分野 | 内容 |
 |---|---|
-| 検証・抽象化 | CEGAR（Clarke ら、2000）、SLAM、BLAST、遅延抽象化（Henzinger ら、2002）、CEGIS（Solar-Lezama）、抽象解釈（Cousot）、漸進的型付け（Siek と Taha）、漸進的検証（Bader・Aldrich・Tanter 2018、Gradual C0）、Liquid Types、Wirth の段階的精緻化、Event-B と Rodin、形式概念分析（Ganter・Wille） |
 | 検査 | Knight と Leveson（1986）、translation validation、Alive2、Spolsky「漏れる抽象化の法則」、Eiffel の契約による設計 |
 | 型と機械語 | TIL、GHC Core、型付きアセンブラ（TAL、Morrisett ら 1999）、CompCert、CakeML、seL4 の C から機械語への translation validation（Sewell・Myreen・Klein 2013）、Vale・HACL\*・Low\*・KaRaMeL、Bedrock、Jasmin、Sail（ISA 仕様） |
 | 安全な終点 | Cyclone、CHERI、WebAssembly |
