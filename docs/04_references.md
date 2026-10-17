@@ -86,6 +86,27 @@
 | Cruse | *Lexical Semantics*, Cambridge UP, 1986, xiv+310 p.（CiNii の書誌）。**語義の facet・microsense に関する議論がこの本にあるかは確認できなかった**。facet は2000年の章（Ravin・Leacock 編 *Polysemy*）の書評スニペットに出てくる | 確認（書誌のみ）。中身は未確認 |
 | Wüster と ISO 704 | ISO 704:2022 "Terminology work — Principles and methods"（第4版、ISO 公式ページ。2009年の第3版を置換）。Wüster は用語学の国際原則の提唱者（Wikipedia）。**ISO 704 が Wüster の理論に由来すること、概念を特徴の組で定義することは、今回の資料で確認できなかった** | 確認（規格名と版）。由来と中身は未確認 |
 
+## 書誌を検索で確認したもの（2026-10-18、検査・安全な終点・その他の14件）
+
+調査は `researcher`（Haiku）2体。**PDF は多くが開けず（圧縮バイナリ、403、404）、本文の主張は未確認**。
+
+| 文献 | 確かめた書誌 | 状態 |
+|---|---|---|
+| Knight・Leveson | "An Experimental Evaluation of the Assumption of Independence in Multiversion Programming", IEEE TSE SE-12(1), 96–109, 1986。「27版・100万テスト」はスニペットのみで未確認 | 確認（Crossref のメタデータ）。要旨は未読 |
+| translation validation | Pnueli・Siegel・Singerman, "Translation Validation", TACAS 1998, pp.151–166 | 確認（Crossref のメタデータ） |
+| Alive2 | Lopes・Lee・Hur・Liu・Regehr, "Alive2: Bounded Translation Validation for LLVM", PLDI 2021。受賞の記述は PLDI 公式ページになく未確認 | 確認（要旨。PLDI 公式ページ） |
+| Spolsky | "The Law of Leaky Abstractions", Joel on Software, 2002-11-11 | 確認（本文） |
+| Eiffel の契約による設計 | Meyer, "Applying 'Design by Contract'", IEEE Computer 25(10), 40–51, 1992。書籍 *Object-Oriented Software Construction* は未確認 | 確認（メタデータ）。内容は未確認 |
+| Cyclone | Jim・Morrisett・Grossman・Hicks・Cheney・Wang, "Cyclone: A Safe Dialect of C", USENIX ATC 2002 | 確認（要旨。USENIX のページ） |
+| CHERI | Watson ら15名, "CHERI: A Hybrid Capability-System Architecture for Scalable Software Compartmentalization", IEEE S&P 2015, pp.20–37。ケンブリッジ大学との関係は今回の出典では未確認 | 確認（メタデータ） |
+| WebAssembly | Haas・Rossberg・Schuff・Titzer・Gohman・Wagner・Zakai・Bastien・Holman, "Bringing the Web up to Speed with WebAssembly", PLDI 2017（9名。第一著者は Haas。Google Research のページの並びは Zakai が先頭で別） | 確認（草稿のファイル名と検索結果。ACM 版は 403 で未確認） |
+| Meta LLM Compiler | Cummins ら, arXiv:2407.02524（2024）。Code Llama 上に LLVM-IR とアセンブリで学習、7B と 13B。ACM 版（CC 2025）は別題で、本文未確認 | 確認（要旨。arXiv） |
+| EnerJ | Sampson・Dietl・Fortuna・Gnanapragasam・Ceze・Grossman, PLDI 2011, pp.164–174 | 確認（スニペット） |
+| `Uncertain<T>` | Bornholt・Mytkowicz・McKinley, ASPLOS 2014, pp.51–66 | 確認（スニペット） |
+| Koka | Leijen による効果型・効果ハンドラの言語（GitHub の README の記述）。論文の題名と会議（MSFP 2014、POPL 2017）は記憶に近く未確認 | 確認（スニペット）。URL は開いていない |
+| Unison | 定義を構文木のハッシュで識別（公式ドキュメント）。名前は別のメタデータ | 確認（公式ドキュメント本文） |
+| Lean 4 の C 経由の生成 | 公式リファレンス：Lean のモジュールごとに C ファイルを作り、**同梱の C コンパイラ**でネイティブコードにする。**clang とは書いていない** | 確認（公式リファレンスの該当箇所） |
+
 ## 実機で確かめたもの
 
 | 内容 | 状態 |
@@ -97,8 +118,6 @@
 
 | 分野 | 内容 |
 |---|---|
-| 検査 | Knight と Leveson（1986）、translation validation、Alive2、Spolsky「漏れる抽象化の法則」、Eiffel の契約による設計 |
-| 安全な終点 | Cyclone、CHERI、WebAssembly |
-| その他 | Meta の LLM Compiler（2024）、EnerJ、`Uncertain<T>`、Koka、Unison、Lean 4 が C 経由でバイナリを作ること、各言語の機能（[03_evaluation.md](03_evaluation.md) の評価はすべてこの区分） |
+| 各言語の機能 | [03_evaluation.md](03_evaluation.md) の評価はすべてこの区分。EnerJ・`Uncertain<T>`・Koka の論文は上の表で書誌のみ確認したが、評価表の個別の判定は未確認 |
 
 次に調べる優先順は [05_open_questions.md](05_open_questions.md)。
