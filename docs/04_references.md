@@ -113,7 +113,7 @@
 
 | 文献 | 確かめたこと | 状態 |
 |---|---|---|
-| KAOS：van Lamsweerde, "Goal-Oriented Requirements Engineering: A Guided Tour", RE 2001 | 書誌は記憶と合う。著者ページに、目的の精緻化、衝突の検出と解決、障害（obstacle）の扱いの題目がある。"Risk-Driven Revision of Requirements Models"（2016）は題目のみ | 確認（著者ページの目次）。本文は未読 |
+| KAOS：van Lamsweerde, "Goal-Oriented Requirements Engineering: A Guided Tour", RE 2001 | 書誌は記憶と合う。**本体が本文（著者ページの PDF を pdftotext で）の関連箇所を読んだ**：目的の精緻化木は、上位の戦略的な目的から下位の技術的な要求への追跡を与える。**「要求は、同じ目的を達する別の方法へ変わりやすい。目的そのものは変わりにくく、上位の目的ほど安定する」**（安定と変動の分離）。システムの版が違っても上位の目的は共通で、進化する版を1つの AND/OR グラフに代替案として統合できる。"Risk-Driven Revision of Requirements Models"（2016）は題目のみ | 確認（本文の関連箇所、2026-10-18）。**目的そのものが変わったときの扱いは、この論文に書かれていない** |
 | i\*：Yu, RE 1997 | 書誌は記憶と合う。means-ends、分解、貢献のリンクを持つ、というのは二次資料の説明 | 確認（書誌）。原論文は未読 |
 | NFR フレームワーク：Chung・Nixon・Yu・Mylopoulos, 2000 | ソフトゴールを「十分に満たす（satisficing）」で扱い、貢献をグラフ上で質的に伝播させる、というのは検索スニペットの記述 | 確認（書誌）。内容はスニペットのみ |
 | Etezadi ら, arXiv 2511.00262（2025） | LLM で要求の変更影響を特定（再現率93.3%）。**要求から要求への影響で、目的は扱わない** | 確認（要旨） |
