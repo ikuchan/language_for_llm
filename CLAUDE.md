@@ -7,7 +7,7 @@
 ## 最初に読む
 
 1. `docs/00_scope.md` — 目的、**扱わないもの**、著者が示した前提
-2. `docs/02_requirements.md` — 言語への要求38項目（この議論の中心）
+2. `docs/02_requirements.md` — 言語への要求39項目（この議論の中心）
 3. `docs/05_open_questions.md` — 次に詰める問い
 4. `docs/07_overview.md` — 決まった範囲の文章と、未決の表（`docs/06_core.md` は決まったことの表）
 5. 必要に応じて `docs/01_discussion.md`（議論の全体）、`docs/03_evaluation.md`（既存言語の評価）、`docs/04_references.md`（出典）
