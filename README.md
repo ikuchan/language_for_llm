@@ -17,7 +17,7 @@ AI が使うプログラミング言語を、理論として詰め、作るた�
 |---|---|
 | [docs/00_scope.md](docs/00_scope.md) | 目的、扱わないもの、著者が示した前提 |
 | [docs/01_discussion.md](docs/01_discussion.md) | 議論のまとめ（根拠の種類つき） |
-| [docs/02_requirements.md](docs/02_requirements.md) | 言語への要求35項目と重み |
+| [docs/02_requirements.md](docs/02_requirements.md) | 言語への要求36項目と重み |
 | [docs/03_evaluation.md](docs/03_evaluation.md) | 15言語の評価と得点（単純・重み付き） |
 | [docs/04_references.md](docs/04_references.md) | 出典（確認／記憶の区分） |
 | [docs/05_open_questions.md](docs/05_open_questions.md) | 未解決の問い |
@@ -28,7 +28,7 @@ AI が使うプログラミング言語を、理論として詰め、作るた�
 
 ## 現在の到達点
 
-- 35の要求を整理し、15言語を ◎○△× で評価した。重み付きの最高は F\*（49%）、次いで Lean 4（46%）、Dafny（41%）。主流言語では Rust（36%）が最高
+- 36の要求を整理し、15言語を ◎○△× で評価した。重み付きの最高は F\*（49%）、次いで Lean 4（47%）、Dafny（42%）。主流言語では Rust（35%）が最高
 - 15言語すべてが満たさない項目：落ちた理由の3択の区別、細かさと確からしさの軸、非機能性質の保存の種類の宣言
 - **評価は記憶にもとづく。** 裏取りは [docs/05_open_questions.md](docs/05_open_questions.md) の B
 
