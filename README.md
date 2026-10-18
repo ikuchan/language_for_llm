@@ -21,6 +21,8 @@ AI が使うプログラミング言語を、理論として詰め、作るた�
 | [docs/03_evaluation.md](docs/03_evaluation.md) | 15言語の評価と得点（単純・重み付き） |
 | [docs/04_references.md](docs/04_references.md) | 出典（確認／記憶の区分） |
 | [docs/05_open_questions.md](docs/05_open_questions.md) | 未解決の問い |
+| [docs/06_core.md](docs/06_core.md) | 核の骨組み（決まったことの表） |
+| [docs/07_overview.md](docs/07_overview.md) | この言語は何をするものか（決まった範囲の文章と、未決の表） |
 | `data/` | 要求と評価の実体（CSV） |
 | `tools/` | 集計（`score.py`）と表の再生成（`build_docs.py`） |
 | [LOG.md](LOG.md) | 作業の履歴 |
